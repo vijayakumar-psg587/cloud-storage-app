@@ -1,0 +1,141 @@
+{
+  "name": "@feedback/cloud-storage-app",
+  "description": "This is the default storage app used by feedback",
+  "version": "1.0.12",
+  "author": "VijayKumar <vijay.psg587@gmail.com>",
+  "keywords": [
+    "feedback-gcloud-storate",
+    "feedback-storage",
+    "feedback-cloud-storage"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**/*",
+    "*.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.3 <14.0"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "webpack --mode=production",
+    "build:babel": "rimraf dist && rimraf lib && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "test:jest": "jest",
+    "exec": "npm run build:webpack && node ./dist/index.js",
+    "test:jest:coverage": "jest --colors --runInBand --coverage ",
+    "start:nodemon:dev": "nodemon",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/axios": "^0.14.0",
+    "@types/google-cloud__storage": "^2.3.1",
+    "@types/jest": "25.1.2",
+    "@types/lodash": "^4.14.149",
+    "@types/mock-fs": "^4.10.0",
+    "@types/moment": "^2.13.0",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/node": "^13.1.6",
+    "@types/pino": "^5.17.0",
+    "@types/properties-reader": "0.0.2",
+    "@types/pump": "^1.1.0",
+    "@types/pumpify": "^1.4.1",
+    "@types/supertest": "^2.0.8",
+    "@types/uuid": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "jest": "^24.9.0",
+    "jest-circus": "^25.2.4",
+    "jest-worker": "^25.2.1",
+    "mock-fs": "^4.11.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.18.2",
+    "supertest": "^4.0.2",
+    "terser-webpack-plugin": "^2.3.5",
+    "ts-jest": "25.2.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.6.0",
+    "atob": "^2.1.2",
+    "axios": "^0.19.2",
+    "btoa": "^1.2.1",
+    "googleapis": "^48.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "pino": "^6.0.0",
+    "properties-reader": "^1.0.0",
+    "pump": "^3.0.0",
+    "pumpify": "^2.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "rxjs": "^6.5.4",
+    "uuid": "^7.0.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "globals": {
+      "ENV_JEST": "sample",
+      "ENV_JEST_DEV": "dev",
+      "JEST_CLOUD_PRJ_ID": "testId",
+      "JEST_CLOUD_KEYFILE": "sample-file.txt",
+      "JEST_CLOUD_SCOPE": "['testScope']",
+      "JEST_CATEGORY": "Cloud_Storage_AppCategory",
+      "JEST_APP_FOLDER_NAME": "Cloud_Storage_test_default_folder",
+      "JEST_APP_FILE_NAME": "Gcloud_test_filename",
+      "JEST_APP_EXCEPTION_FILE_NAME": "Cloud_Default_ExceptionFileName"
+    },
+    "preset": "ts-jest",
+    "roots": [
+      "<rootDir>/src",
+      "<rootDir>/__mocks__"
+    ],
+    "verbose": true,
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "coveragePathIgnorePatterns": [
+      "node_modules",
+      "partials",
+      "lib",
+      "dist"
+    ]
+  },
+  "BizTalkAssemblies": [],
+  "BindingsFiles": [],
+  "DeploymentSequence": []
+}

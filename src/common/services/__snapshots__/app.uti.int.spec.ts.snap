@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for util service testing getUTC time 1`] = `"2020-05-04 02:00:29.6310"`;

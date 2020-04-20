@@ -1,0 +1,13 @@
+{
+
+  "exec":"ts-node -r tsconfig-paths/register src/index.ts",
+  "ext": "ts, tsx, js, jsx, jade",
+  "nodeArgs": [{"NODE_D_ENV":"dev"}],
+  "verbose":false,
+  "restartable":false,
+  "ignore":["src/**/*.spec.ts, src/test/*.ts. ./node_modules/**/node_modules"],
+  "env": {
+    "NODE_ENV_D_NODEMON":"development",
+    "NODE_ENV_D":"dev"
+  }
+}
