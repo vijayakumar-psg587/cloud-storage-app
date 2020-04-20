@@ -1,43 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-07-04 02:47:26.2500 1`] = `"2020-07-04 02:47:26.2490"`;
+exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-21-04 02:08:25.7410 1`] = `"2020-21-04 02:08:25.7390"`;
 
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-07-04 02:53:59.7300 1`] = `"2020-07-04 02:53:59.7290"`;
+exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-21-04 02:08:57.3920 1`] = `"2020-21-04 02:08:57.3910"`;
 
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 01:01:13.4970 1`] = `"2020-11-04 01:01:13.4970"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 01:03:57.3350 1`] = `"2020-11-04 01:03:57.3350"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 04:53:44.0500 1`] = `"2020-11-04 04:53:44.0490"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 04:54:50.5060 1`] = `"2020-11-04 04:54:50.5060"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 06:05:38.2860 1`] = `"2020-11-04 06:05:38.2850"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 06:08:08.1280 1`] = `"2020-11-04 06:08:08.1270"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-11-04 11:33:08.6510 1`] = `"2020-11-04 11:33:08.6500"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 10:55:27.5540 1`] = `"2020-12-04 10:55:27.5540"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 11:27:25.4560 1`] = `"2020-12-04 11:27:25.4560"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 11:29:39.5560 1`] = `"2020-12-04 11:29:39.5560"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 11:39:30.5670 1`] = `"2020-12-04 11:39:30.5670"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 11:47:35.2490 1`] = `"2020-12-04 11:47:35.2480"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 11:52:09.6740 1`] = `"2020-12-04 11:52:09.6730"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 11:53:45.7430 1`] = `"2020-12-04 11:53:45.7430"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-12-04 12:08:14.5420 1`] = `"2020-12-04 12:08:14.5410"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-16-04 12:29:38.7590 1`] = `"2020-16-04 12:29:38.7590"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-16-04 12:31:49.2100 1`] = `"2020-16-04 12:31:49.2100"`;
-
-exports[`Test suite for util service testing general getUTC time 1`] = `"2018–01–30 12:34:56.0000"`;
-
-exports[`Test suite for util service testing getUTC time 1`] = `"2018–01–30 12:34:56.0000"`;
+exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-21-04 02:13:50.6630 1`] = `"2020-21-04 02:13:50.6630"`;

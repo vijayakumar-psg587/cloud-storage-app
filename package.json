@@ -28,7 +28,7 @@
     "build:babel": "rimraf dist && rimraf lib && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "test:jest": "jest",
     "exec": "npm run build:webpack && node ./dist/index.js",
-    "test:jest:coverage": "jest --colors --runInBand --coverage ",
+    "test:jest:cov": "jest --colors --runInBand --coverage ",
     "start:nodemon:dev": "nodemon",
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
