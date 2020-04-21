@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Test suite for util service testing general getUTC time 1`] = `"2018–01–30 12:34:56.0000"`;

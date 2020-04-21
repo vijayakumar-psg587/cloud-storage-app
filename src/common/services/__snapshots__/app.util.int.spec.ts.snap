@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-21-04 02:08:25.7410 1`] = `"2020-21-04 02:08:25.7390"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-21-04 02:08:57.3920 1`] = `"2020-21-04 02:08:57.3910"`;
-
-exports[`New Test suite for util service testing general getUTC time -  actual momentimezone call: 2020-21-04 02:13:50.6630 1`] = `"2020-21-04 02:13:50.6630"`;
